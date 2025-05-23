@@ -81,42 +81,6 @@ const MySchedule = () => {
         </div>
       )}
 
-      {/* here pending works */}
-
-      <h1 className="text-3xl font-bold my-10 ">My Pending works </h1>
-      {pending.length > 0 ? (
-        <div className="overflow-x-auto">
-          <table className="table">
-            {/* head */}
-            <thead>
-              <tr>
-                <th>SI No :</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Date</th>
-                <th>Service Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              {pending.map((item, idx) => (
-                <MyPendingWork
-                  item={item}
-                  handleChange={handleChange}
-                  idx={idx}
-                  key={item._id}
-                ></MyPendingWork>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      ) : (
-        <img
-          className="lg:h-[500px] lg:w-full "
-          src="https://i.imgur.com/dH46T9h.png"
-          alt=""
-        />
-      )}
-
       <Footer></Footer>
     </div>
   );

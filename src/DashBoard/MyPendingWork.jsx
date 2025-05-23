@@ -13,8 +13,6 @@ const MyPendingWork = ({ item, idx, handleChange }) => {
     serviceProviderEmail,
     status,
   } = item;
-  // const [use, setUse] = useState(status);
-  // console.log(use);
 
   return (
     <tr>
@@ -23,7 +21,7 @@ const MyPendingWork = ({ item, idx, handleChange }) => {
       <td>
         <div className="flex items-center gap-3">
           <div className="avatar">
-            <div className="mask mask-squircle w-12 h-12">
+            <div className="mask mask-squire w-12 h-12">
               <img src={serviceImage} alt="Avatar Tailwind CSS Component" />
             </div>
           </div>
@@ -41,7 +39,6 @@ const MyPendingWork = ({ item, idx, handleChange }) => {
       </td>
       <td className="  font-bold">{date}</td>
       <td>
-        {/* <button className="btn btn-ghost btn-xs">Pending</button> */}
 
         {status === "Completed" ? (
           <span className="font-bold text-primary">Completed</span>

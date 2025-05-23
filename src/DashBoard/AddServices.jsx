@@ -86,19 +86,7 @@ const AddServices = () => {
                 required
               />
             </div>
-            {/* <div className="form-control">
-              <label className="label">
-                <span className="label-text">User Name :</span>
-              </label>
-              <select className="input input-bordered input-info  " id="fruits">
-                <option value="apple">Apple</option>
-                <option value="banana">Samsung</option>
-                <option value="cherry">Sony</option>
-                <option value="grape">Google</option>
-                <option value="orange">Intel</option>
-                <option value="strawberry">Huawei</option>
-              </select>
-            </div> */}
+
             <div className="form-control">
               <label className="label">
                 <span className="label-text">User Photo </span>
