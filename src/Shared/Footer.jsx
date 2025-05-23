@@ -11,7 +11,7 @@ const Footer = () => {
             alt=""
           />
         </Link>
-        <p className="font-bold">
+        <p className="font-extrabold">
           One Service  <br />
           Providing reliable service since 2025
         </p>
