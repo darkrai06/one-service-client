@@ -2,71 +2,73 @@ const Faq = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold text-center my-10">FAQ Section</h1>
+
       <div className="collapse collapse-arrow bg-base-200">
-        <input type="radio" name="my-accordion-2" />
+        <input type="radio" name="faq-accordion" />
         <div className="collapse-title text-xl font-medium">
-          Q: What services do you offer?
+          Q: What types of services do you provide?
         </div>
         <div className="collapse-content">
           <p>
-            A: We offer a comprehensive range of moving services including
-            packing, loading, transportation, unloading, and storage options.
-            Our goal is to provide a complete solution for your moving needs.
+            A: We offer a wide range of services including packing, loading,
+            transportation, unloading, and storage solutions. Our aim is to provide a
+            complete and hassle-free experience for all your service needs.
           </p>
         </div>
       </div>
+
       <div className="collapse collapse-arrow bg-base-200">
-        <input type="radio" name="my-accordion-2" />
+        <input type="radio" name="faq-accordion" />
         <div className="collapse-title text-xl font-medium">
-          Q: How do I get a moving quote?
+          Q: How can I request a service quote?
         </div>
         <div className="collapse-content">
           <p>
-            A: You can get a moving quote by contacting us through our website
-            or giving us a call. We'll gather information about your move and
-            provide you with a customized quote based on your specific
-            requirements.
+            A: You can request a quote by contacting us through our website or by phone.
+            Simply provide the details of your requirements, and we’ll give you a
+            personalized estimate based on your needs.
           </p>
         </div>
       </div>
+
       <div className="collapse collapse-arrow bg-base-200">
-        <input type="radio" name="my-accordion-2" />
+        <input type="radio" name="faq-accordion" />
         <div className="collapse-title text-xl font-medium">
-          Q: Do you offer packing services?
+          Q: Do you provide packing assistance?
         </div>
         <div className="collapse-content">
           <p>
-            A: Yes, we offer professional packing services to ensure your
-            belongings are securely packed for the move. Our experienced team
-            uses quality packing materials to safeguard your items during
-            transportation.
+            A: Yes, we offer professional packing services. Our trained team uses
+            high-quality materials and proven techniques to ensure your belongings are
+            safe and secure throughout the move.
           </p>
         </div>
       </div>
+
       <div className="collapse collapse-arrow bg-base-200">
-        <input type="radio" name="my-accordion-2" />
+        <input type="radio" name="faq-accordion" />
         <div className="collapse-title text-xl font-medium">
-          Q: Can I track my belongings during the move?
+          Q: Is it possible to track my service in real time?
         </div>
         <div className="collapse-content">
           <p>
-            A: Yes, we provide tracking options for our moving services. You can
-            inquire about the status and location of your belongings during the
-            entire moving process for added peace of mind.
+            A: Absolutely. We provide real-time tracking options so you can monitor the
+            progress of your service. You’ll receive updates on the location and status
+            of your items for complete peace of mind.
           </p>
         </div>
       </div>
+
       <div className="collapse collapse-arrow bg-base-200">
-        <input type="radio" name="my-accordion-2" />
+        <input type="radio" name="faq-accordion" />
         <div className="collapse-title text-xl font-medium">
-          Q: What measures do you take to ensure the safety of my items?
+          Q: What steps do you take to ensure item safety?
         </div>
         <div className="collapse-content">
           <p>
-            A: We take every precaution to ensure the safety of your items. Our
-            team is trained to handle items with care, and we use proper packing
-            techniques and secure transportation to minimize the risk of damage
-            during the move.
+            A: We prioritize the safety of your items by using secure packing methods,
+            careful handling practices, and reliable transportation. Our team is trained
+            to handle all items with care, minimizing the risk of damage during transit.
           </p>
         </div>
       </div>
