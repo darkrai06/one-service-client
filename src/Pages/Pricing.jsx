@@ -5,14 +5,14 @@ const Pricing = () => {
         Take your suitable plan{" "}
       </h1>
       <div className="  rounded-lg p-8 bg-gradient-to-b from-blue-900 to-sky-500 text-white">
-        <h2 className="text-3xl font-bold mb-6">Pricing Plans</h2>
+        <h2 className="text-3xl font-extrabold mb-6">Pricing Plans</h2>
 
         <div className="flex flex-wrap justify-around items-center">
           {/* Plan 1 */}
           <div className="bg-purple-700 p-8 rounded-lg shadow-lg mb-8 transition-transform duration-300 transform hover:-translate-y-2 cursor-pointer">
             <h3 className="text-2xl font-semibold mb-4">Basic Plan</h3>
             <p className="text-lg mb-4">Ideal for small moves</p>
-            <p className="text-3xl font-bold mb-4">$99</p>
+            <p className="text-3xl font-bold mb-4">$69</p>
             <ul className="list-disc">
               <li>Up to 2 hours of service</li>
               <li>Basic packing materials</li>
@@ -24,7 +24,7 @@ const Pricing = () => {
 
             <h3 className="text-2xl font-semibold mb-4">Standard Plan</h3>
             <p className="text-lg mb-4">Perfect for medium-sized moves</p>
-            <p className="text-3xl font-bold mb-4">$199</p>
+            <p className="text-3xl font-bold mb-4">$129</p>
             <ul className="list-disc">
               <li>Up to 4 hours of service</li>
               <li>Standard packing materials</li>
@@ -35,7 +35,7 @@ const Pricing = () => {
           <div className="bg-emerald-700 p-8 rounded-lg shadow-lg mb-8 transition-transform duration-300 transform hover:-translate-y-2 cursor-pointer">
             <h3 className="text-2xl font-semibold mb-4">Premium Plan</h3>
             <p className="text-lg mb-4">For large and complex moves</p>
-            <p className="text-3xl font-bold mb-4">$299</p>
+            <p className="text-3xl font-bold mb-4">$259</p>
             <ul className="list-disc">
               <li>Up to 8 hours of service</li>
               <li>Premium packing materials</li>
