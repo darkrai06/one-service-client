@@ -5,7 +5,7 @@ import ScrollTrigger from "react-scroll-trigger";
 const Counter = () => {
   const [counter, setCounter] = useState(false);
   return (
-    <div className="bg-black text-white p-10 rounded-xl ">
+    <div className="bg-gray-700 text-white p-10 rounded-xl ">
       <ScrollTrigger
         onEnter={() => setCounter(true)}
         onExit={() => setCounter(false)}
