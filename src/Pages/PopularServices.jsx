@@ -23,7 +23,7 @@ useEffect(()=>{
             </div>
            <div className="my-8 text-center" >
           <Link to="/services" >
-          <button className="btn btn-warning" >Show All</button>
+          <button className="btn bg-teal-500 text-amber-100" >Show All</button>
           </Link>
            </div>
 
