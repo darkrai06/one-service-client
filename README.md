@@ -11,7 +11,7 @@ Welcome to **One Service** – a web application designed to offer and manage va
   A clean and intuitive **navigation bar** enables users to explore various sections of the application with ease.
 
 - **📌 Main Content Area:**  
-  Users can browse service details, enhanced with integrations like **React Leaflet** (for interactive maps) and **react-countup** (for animated counters).
+  Users can browse service details, enhanced with integrations like **react-countup** (for animated counters).
 
 - **🔐 Private Routes:**  
   Specific routes such as service detail pages are protected. Only authenticated users can access them, ensuring secure usage.
