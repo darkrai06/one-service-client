@@ -15,7 +15,6 @@ const Pricing = () => {
             <p className="text-3xl font-bold mb-4">$99</p>
             <ul className="list-disc">
               <li>Up to 2 hours of service</li>
-              <li>1 truck and 2 movers</li>
               <li>Basic packing materials</li>
             </ul>
           </div>
@@ -28,7 +27,6 @@ const Pricing = () => {
             <p className="text-3xl font-bold mb-4">$199</p>
             <ul className="list-disc">
               <li>Up to 4 hours of service</li>
-              <li>1 truck and 3 movers</li>
               <li>Standard packing materials</li>
             </ul>
           </div>
@@ -40,7 +38,6 @@ const Pricing = () => {
             <p className="text-3xl font-bold mb-4">$299</p>
             <ul className="list-disc">
               <li>Up to 8 hours of service</li>
-              <li>2 trucks and 4 movers</li>
               <li>Premium packing materials</li>
               <li>Storage options available</li>
             </ul>

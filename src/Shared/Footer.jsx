@@ -13,9 +13,9 @@ const Footer = () => {
         </Link>
         <p className="font-bold">
           One Service  <br />
-          Providing reliable service since 2023
+          Providing reliable service since 2025
         </p>
-        <p>Copyright © 2023 - All right reserved</p>
+        <p>Copyright © 2025 - All right reserved</p>
       </aside>
    
       <nav>
