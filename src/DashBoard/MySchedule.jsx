@@ -22,7 +22,6 @@ const MySchedule = () => {
       });
   }, [url]);
 
-  // pending data
   const url2 = `https://one-service-server.onrender.com/pendingBooking?serviceProviderEmail=${user?.email}`;
   useEffect(() => {
     fetch(url2)
@@ -31,8 +30,6 @@ const MySchedule = () => {
         setPending(data);
       });
   }, [url2]);
-
-  // updates status in backend
 
   const handleChange = (id, selectedValue) => {
     console.log("changing", id, selectedValue);
