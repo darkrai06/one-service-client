@@ -156,8 +156,6 @@ const AddServices = () => {
                 placeholder="Description"
               ></textarea>
             </div>
-
-            {/* ************************************************ */}
             <div className="form-control mt-6">
               <button className="btn btn-info">Add Service</button>
             </div>
