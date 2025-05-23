@@ -152,11 +152,7 @@ const Navbar = () => {
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1  ">{nav}</ul>
       </div>
-      {/* <div className="navbar-end ">
-        <Link to="/login">
-          <button className="btn btn-ghost ">Login</button>
-        </Link>
-      </div> */}
+
       <div className="navbar-end ">
         {user ? (
           <div className="flex">
