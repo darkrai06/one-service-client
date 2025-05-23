@@ -14,7 +14,7 @@ const Home = () => {
       <Helmet>
         <title>One Service | Home</title>
       </Helmet>
-      <nav>
+      <div className="gap-6">
         <Navbar></Navbar>
         <Banner></Banner>
         <PopularServices></PopularServices>
@@ -23,7 +23,7 @@ const Home = () => {
         <Counter></Counter>
 
         <Footer></Footer>
-      </nav>
+      </div>
     </div>
   );
 };
