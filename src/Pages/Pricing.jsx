@@ -4,7 +4,7 @@ const Pricing = () => {
       <h1 className="text-4xl font-bold text-center my-10">
         Take your suitable plan{" "}
       </h1>
-      <div className="  rounded-lg p-8 bg-gradient-to-b from-sky-500 to-gray-500 text-white">
+      <div className="  rounded-lg p-8 bg-gradient-to-b from-blue-900 to-sky-500 text-white">
         <h2 className="text-3xl font-bold mb-6">Pricing Plans</h2>
 
         <div className="flex flex-wrap justify-around items-center">
