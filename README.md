@@ -8,7 +8,7 @@ Welcome to **One Service** – a web application designed to offer and manage va
   Utilizes **MongoDB** as the primary database to store and manage data. Sensitive information such as database credentials are securely handled using environment variables.
 
 - **🧭 Smooth Navigation:**  
-  A clean and intuitive **navigation bar** enables users to explore various sections of the application with ease.
+  A clean and intuitive **navigation bar** enables users to explore various sections of the application like home, services, dashboard with ease.
 
 - **📌 Main Content Area:**  
   Users can browse service details, enhanced with integrations like **react-countup** (for animated counters).
